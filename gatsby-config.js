@@ -27,12 +27,12 @@ module.exports = {
       options: {
         // the only required plugin option for WordPress is the GraphQL url.
         url: process.env.WPGRAPHQL_URL,
-        auth: {
-          htaccess: {
-            username: process.env.HTUSER,
-            password: process.env.HTPASSWORD
-          }
-        }
+        // auth: {
+        //   htaccess: {
+        //     username: process.env.HTUSER,
+        //     password: process.env.HTPASSWORD
+        //   }
+        // }
       },
       
     },
