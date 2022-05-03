@@ -30,7 +30,7 @@ module.exports = {
         auth: {
           htaccess: {
             username: process.env.HTUSER,
-            password: process.env.HTPASSWORD
+            password: process.env.HTPASSWORD,
           }
         }
       },
